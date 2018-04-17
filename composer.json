@@ -1,13 +1,13 @@
 {
-    "name": "laravel-notification-channels/:package_name",
-    "description": ":package_description",
-    "homepage": "https://github.com/laravel-notification-channels/:package_name",
+    "name": "laravel-notification-channels/iletimerkezi",
+    "description": "Iletimerkezi SMS Client for Laravel Notification Channel",
+    "homepage": "https://github.com/laravel-notification-channels/iletimerkezi",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": "Muharrem Tigdemir",
+            "email": "muharrem.tigdemir@gmail.com",
+            "homepage": "https://medium.com/@mtigdemir",
             "role": "Developer"
         }
     ],
@@ -22,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "NotificationChannels\\:channel_namespace\\": "src"
+            "NotificationChannels\\Iletimerkezi\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "NotificationChannels\\:channel_namespace\\Test\\": "tests"
+            "NotificationChannels\\Iletimerkezi\\Test\\": "tests"
         }
     },
     "scripts": {

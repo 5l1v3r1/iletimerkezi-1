@@ -1,10 +1,10 @@
 <?php
 
-namespace NotificationChannels\:channel_namespace;
+namespace NotificationChannels\Iletimerkezi;
 
 use Illuminate\Support\Arr;
 
-class :service_nameMessage
+class IletimerkeziMessage
 {
     // Message structure here
 }
